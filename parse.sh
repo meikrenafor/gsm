@@ -1,7 +1,7 @@
 #!/bin/bash
 
 tempDir='./temp';
-sortedImages="$tempFolder/sorted-images";
+sortedImages="$tempDir/sorted-images";
 
 while IFS='' read -r line || [[ -n "$line" ]]; do
     echo "Text read from file: $line";
